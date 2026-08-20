@@ -1,42 +1,55 @@
-# Hi, I'm Mina Soliman 👋
+# Hi, I'm Mina Soliman
 
-I'm an incoming electrical engineering student in Canada with growing interests in
-software development, cybersecurity, hardware, and responsible technology. I like
-projects that turn broad ideas into practical, testable systems.
+I'm an electrical engineering student in Canada building practical experience across
+power systems, embedded computing, software, and defensive cybersecurity. I enjoy
+turning engineering requirements into systems that can be measured, tested, and
+explained clearly.
 
-I'm currently building my experience and looking for student, internship, and
-early-career opportunities where I can contribute, learn from a strong team, and keep
-developing as an engineer.
+I'm preparing for Summer 2027 internships and co-ops in electrical/computer
+engineering, embedded systems, controls, software, and technology.
 
-## Featured work
+## Featured engineering projects
 
-### [Signal & Self](https://mini34.github.io/signal-and-self/)
+These projects use deterministic simulations and automated tests to demonstrate
+engineering reasoning; they do not claim physical-hardware validation.
 
-A responsive digital citizenship fieldbook built with semantic HTML, CSS, and
-JavaScript. It includes data-driven reflections and projects, search and filtering,
-device-local personalization, accessible controls, and automated content validation.
+### [Power Quality Lab](https://github.com/Mini34/power-quality-lab)
 
-**Focus:** front-end development, accessibility, privacy-minded design, structured data
+A tested AC-signal analysis toolkit that calculates RMS voltage and current, active and
+apparent power, power factor, and frequency before classifying voltage sag, swell, and
+low-power-factor conditions.
 
-### [Trailhead Customer Support API](https://github.com/Mini34/trailhead-claude-support-api)
+**Evidence:** electrical calculations · signal processing · Python · automated tests
 
-A grounded Python and FastAPI support service that combines Claude-powered conversation
-with policy retrieval, deterministic business tools, structured escalation, and a
-20-test automated suite.
+### [Microgrid Controller Simulation](https://github.com/Mini34/microgrid-controller-sim)
 
-**Focus:** Python, REST APIs, FastAPI, LLM tool use, testing, safety boundaries
+A deterministic controller for solar, battery, grid, and load power flows. It models
+state-of-charge limits, charging constraints, a hard grid-import limit, peak shaving,
+grid outages, exports, explicit load shedding, and power-balance checks.
 
-## What I'm learning
+**Evidence:** power systems · controls logic · energy constraints · simulation
 
-- Electrical engineering fundamentals and systems thinking
-- Python application development and API design
-- Cybersecurity and secure-by-design practices
-- Accessible, responsive web development
-- Git, GitHub Actions, testing, and maintainable documentation
+### [CAN Bus Anomaly Lab](https://github.com/Mini34/can-bus-anomaly-lab)
 
-## Current goal
+A defensive CAN-network simulator and intrusion detector that identifies unknown
+message IDs, implausible message rates, invalid payload ranges, and rolling-counter
+violations.
 
-Keep building small, complete projects that are easy to understand, run, test, and
-improve—and document the decisions behind them clearly.
+**Evidence:** computer engineering · embedded networks · cybersecurity · testing
 
-→ [Visit Signal & Self](https://mini34.github.io/signal-and-self/)
+## Additional work
+
+- [Trailhead Customer Support API](https://github.com/Mini34/trailhead-claude-support-api) — tested FastAPI service with deterministic business rules, retrieval, structured escalation, and CI
+- [Signal & Self](https://mini34.github.io/signal-and-self/) — accessible, responsive, data-driven digital citizenship portfolio
+
+## Current technical focus
+
+- Electrical measurements, power systems, instrumentation, and controls
+- Python, C/C++ fundamentals, data structures, and testable software design
+- Embedded communication protocols and secure-by-design engineering
+- Git, GitHub Actions, technical documentation, and reproducible results
+
+## What I value
+
+I document assumptions, separate simulations from physical results, test important
+behaviour, and make projects straightforward for another person to run and review.
