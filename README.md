@@ -1,42 +1,54 @@
-# Hi, I'm Mina Soliman 👋
+# Hi, I'm Mina Soliman
 
-I'm an incoming electrical engineering student in Canada with growing interests in
-software development, cybersecurity, hardware, and responsible technology. I like
-projects that turn broad ideas into practical, testable systems.
+I'm an electrical engineering student in Canada building practical experience across
+power systems, embedded computing, software, and defensive cybersecurity. I enjoy
+turning engineering requirements into systems that can be measured, tested, and
+explained clearly.
 
-I'm currently building my experience and looking for student, internship, and
-early-career opportunities where I can contribute, learn from a strong team, and keep
-developing as an engineer.
+I'm preparing for Summer 2027 internships and co-ops in electrical/computer
+engineering, embedded systems, controls, software, and technology.
 
-## Featured work
+## Featured engineering projects
 
-### [Signal & Self](https://mini34.github.io/signal-and-self/)
+### [Power Quality Lab](https://github.com/Mini34/power-quality-lab)
 
-A responsive digital citizenship fieldbook built with semantic HTML, CSS, and
-JavaScript. It includes data-driven reflections and projects, search and filtering,
-device-local personalization, accessible controls, and automated content validation.
+A tested AC-signal analysis toolkit that calculates RMS voltage and current, active and
+apparent power, power factor, and frequency before classifying voltage sag, swell, and
+low-power-factor conditions.
 
-**Focus:** front-end development, accessibility, privacy-minded design, structured data
+**Evidence:** electrical calculations · signal processing · Python · automated tests
 
-### [Trailhead Customer Support API](https://github.com/Mini34/trailhead-claude-support-api)
+### [Microgrid Controller Simulation](https://github.com/Mini34/microgrid-controller-sim)
 
-A grounded Python and FastAPI support service that combines Claude-powered conversation
-with policy retrieval, deterministic business tools, structured escalation, and a
-20-test automated suite.
+A deterministic controller for solar, battery, grid, and load power flows. It models
+state-of-charge limits, charging constraints, peak shaving, grid outages, exports, and
+unserved load.
 
-**Focus:** Python, REST APIs, FastAPI, LLM tool use, testing, safety boundaries
+**Evidence:** power systems · controls logic · energy constraints · simulation
 
-## What I'm learning
+### [CAN Bus Anomaly Lab](https://github.com/Mini34/can-bus-anomaly-lab)
 
-- Electrical engineering fundamentals and systems thinking
-- Python application development and API design
-- Cybersecurity and secure-by-design practices
-- Accessible, responsive web development
-- Git, GitHub Actions, testing, and maintainable documentation
+A defensive CAN-network simulator and intrusion detector that identifies unknown
+message IDs, implausible message rates, invalid payload ranges, and rolling-counter
+violations.
 
-## Current goal
+**Evidence:** computer engineering · embedded networks · cybersecurity · testing
 
-Keep building small, complete projects that are easy to understand, run, test, and
-improve—and document the decisions behind them clearly.
+## Additional work
 
-→ [Visit Signal & Self](https://mini34.github.io/signal-and-self/)
+- [Trailhead Customer Support API](https://github.com/Mini34/trailhead-claude-support-api) — tested FastAPI service with deterministic business rules, retrieval, structured escalation, and CI
+- [Signal & Self](https://mini34.github.io/signal-and-self/) — accessible, responsive, data-driven digital citizenship portfolio
+
+## Current technical focus
+
+- Electrical measurements, power systems, instrumentation, and controls
+- Python, C/C++ fundamentals, data structures, and testable software design
+- Embedded communication protocols and secure-by-design engineering
+- Git, GitHub Actions, technical documentation, and reproducible results
+
+## What I value
+
+I document assumptions, separate simulations from physical results, test important
+behaviour, and make projects straightforward for another person to run and review.
+
+
