@@ -1,9 +1,9 @@
 # Hi, I'm Mina Soliman
 
-I'm an electrical engineering student in Canada building practical experience across
-power systems, embedded computing, software, and defensive cybersecurity. I enjoy
-turning engineering requirements into systems that can be measured, tested, and
-explained clearly.
+I'm an incoming University of Toronto Electrical Engineering student beginning in
+September 2026 and building practical experience across power systems, embedded
+computing, software, and defensive cybersecurity. I enjoy turning engineering
+requirements into systems that can be measured, tested, and explained clearly.
 
 I'm preparing for Summer 2027 internships and co-ops in electrical/computer
 engineering, embedded systems, controls, software, and technology.
@@ -16,8 +16,8 @@ engineering reasoning; they do not claim physical-hardware validation.
 ### [Power Quality Lab](https://github.com/Mini34/power-quality-lab)
 
 A tested AC-signal analysis toolkit that calculates RMS voltage and current, active and
-apparent power, power factor, and frequency before classifying voltage sag, swell, and
-low-power-factor conditions.
+apparent power, power factor, and frequency before classifying voltage sag, swell,
+no-load, and low-power-factor conditions.
 
 **Evidence:** electrical calculations · signal processing · Python · automated tests
 
@@ -32,8 +32,8 @@ grid outages, exports, explicit load shedding, and power-balance checks.
 ### [CAN Bus Anomaly Lab](https://github.com/Mini34/can-bus-anomaly-lab)
 
 A defensive CAN-network simulator and intrusion detector that identifies unknown
-message IDs, implausible message rates, invalid payload ranges, and rolling-counter
-violations.
+message IDs, implausible message rates, invalid payload ranges, rolling-counter
+violations, and timestamp regressions without connecting to a live vehicle network.
 
 **Evidence:** computer engineering · embedded networks · cybersecurity · testing
 
